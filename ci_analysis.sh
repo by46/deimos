@@ -12,4 +12,4 @@ chmod +x ./venv/bin/activate
 ./venv/bin/activate
 pip install --trusted-host scmesos06 -i http://scmesos06:3141/simple -r requirements_dev.txt --cache-dir=/tmp/${JOB_NAME}
 
-${PYLINT} -f parseable -d deimos | tee pylint.out
+${PYLINT} -f parseable deimos | tee pylint.out

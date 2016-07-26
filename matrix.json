@@ -1,7 +1,7 @@
 {
   "name": "deimos",
   "image": "docker.neg/python:neg-biz",
-  "tag": "0.0.1",
+  "tag": "0.0.2",
   "port": [8080],
   "env": {},
   "volume": [],
